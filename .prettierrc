@@ -1,0 +1,30 @@
+{
+  "tabWidth": 2,
+  "printWidth": 100,
+  "useTabs": false,
+  "semi": true,
+  "singleQuote": true,
+  "quoteProps": "as-needed",
+  "jsxSingleQuote": false,
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "bracketSameLine": false,
+  "arrowParens": "avoid",
+  "endOfLine": "lf",
+  "importOrder": [
+    "^(?!@/).*(react|next)(.(?!.*css$|.*scss$))*$",
+    "<THIRD_PARTY_MODULES>",
+    "^(@/)(?!pages|components|layouts|contexts|public|guards|views)(.(?!.*/use[\\w]*$))*$",
+    "^(@/).*/use[\\w]*$",
+    "^(@/contexts)(.*)$",
+    "^(@/guards)(.*)$",
+    "^(@/layouts)(.*)$",
+    "^(@/components/|@/App)(.*)$",
+    "^(@/views)(.*)$",
+    "^(@/public)(.*)$",
+    "(svg|jpg|jpeg|png)$",
+    "^(?!@|\\./).*(scss|css)$",
+    "(scss|css)$"
+  ],
+  "importOrderSeparation": true
+}
