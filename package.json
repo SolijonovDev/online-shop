@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "next start -p ${PORT:=3000}",
     "lint": "next lint",
     "format": "npx prettier --write .",
     "stylelint": "stylelint \"**/*.scss\" --fix"
@@ -16,6 +16,7 @@
     "eslint": "8.32.0",
     "eslint-config-next": "13.1.2",
     "next": "13.1.2",
+    "next-i18next": "^8.8.0",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },
