@@ -1,3 +1,4 @@
+import { appWithTranslation } from 'next-i18next';
 import { Fragment } from 'react';
 
 import { MainLayout } from '@/layout/MainLayout/MainLayout';
@@ -13,4 +14,4 @@ const App = ({ Component, pageProps }) => {
   );
 };
 
-export default App;
+export default appWithTranslation(App);
