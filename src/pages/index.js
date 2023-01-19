@@ -1,13 +1,22 @@
 import { Fragment } from 'react';
+import { QueryClient, dehydrate } from 'react-query';
 
-import { HomeView } from '@/views/HomeView';
+import { HomeApi } from '@/api/domains/home-api';
 import { propsWithLocales } from '@/helpers/locales';
 
-export const getStaticProps = propsWithLocales(null, async (context) => {
+import { HomeView } from '@/views/HomeView';
 
+export const getStaticProps = propsWithLocales(null, async context => {
+  const queryClient = new QueryClient();
+  await queryClient.prefetchQuery(['home-banners'], HomeApi.fetchBanners);
+
+  return {
+    props: {
+      dehydrated: dehydrate(queryClient),
+    },
+    revalidate: 1200,
+  };
 });
-
-
 
 const HomePage = () => {
   return (
