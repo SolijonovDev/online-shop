@@ -5,6 +5,7 @@ import { ReactQueryDevtools } from 'react-query/devtools';
 import { Hydrate } from 'react-query/hydration';
 
 import { MainLayout } from '@/layout/MainLayout/MainLayout';
+
 import '@/styles/main.scss';
 
 const App = ({ Component, pageProps }) => {

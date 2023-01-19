@@ -1,6 +1,8 @@
 import { Fragment } from 'react';
 
-import { MainHeader } from './MainHeader/MainHeader';
+import { MainHeader } from '@/layout/MainLayout/MainHeader/MainHeader';
+
+import { Container } from '@/components/Container';
 
 import styles from '@/layout/MainLayout/MainLayout.module.scss';
 
@@ -11,7 +13,7 @@ export const MainLayout = props => {
       <div>
         <MainHeader />
         <h2>Main layout</h2>
-        {children}
+        <Container>{children}</Container>
       </div>
     </Fragment>
   );
