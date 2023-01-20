@@ -1,0 +1,61 @@
+.bannerSliderContainer {
+  grid-area: b;
+  margin-bottom: 0.8rem;
+
+  .bannersSlider {
+    position: relative;
+    padding-bottom: 40%;
+    width: 100%;
+  }
+
+  :global {
+    .swiper {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .bottomNavContainer {
+    border-top: 0.5px solid #fff;
+    padding: 1rem 0;
+  }
+
+  .bottomNav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  .prevBtn,
+  .nextBtn {
+    border: 1px solid blue;
+    border-radius: 0.3rem;
+    padding: 0.5rem;
+    font-weight: 400;
+    font-size: 14px;
+    color: blue;
+    background-color: transparent;
+    transition: all 500ms;
+    cursor: pointer;
+
+    &:hover {
+      color: #fff;
+      background-color: blue;
+    }
+  }
+
+  .prevBtn {
+    margin-right: 1rem;
+  }
+
+  @media (min-width: 600px) {
+    margin-bottom: 1.5rem;
+  }
+
+  @media (min-width: 1000px) {
+    margin-bottom: 0;
+  }
+}
