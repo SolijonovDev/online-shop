@@ -1,19 +1,21 @@
-import { useTranslation } from 'next-i18next';
-import { Fragment } from 'react';
+import { Button } from '@/components/Button';
+import { Container } from '@/components/Container';
 
-import { BannersSliders } from '@/views/HomeView/BannersSliders/BannersSliders';
+import { Aside } from '@/views/HomeView/Aside/Aside';
+import { Header } from '@/views/HomeView/Header/Header';
 import styles from '@/views/HomeView/HomeView.module.scss';
+import { Sidebar } from '@/views/HomeView/Sidebar/Sidebar';
 
 export const HomeView = () => {
-  const { t } = useTranslation('common');
   return (
-    <Fragment>
-      <div>
-        <BannersSliders />
-        <h2>{t('title')}</h2>
-        <p>{t('text')}</p>
-        <h2>HomeView</h2>
-      </div>
-    </Fragment>
+    <div className={styles.homeView}>
+      <Container>
+        <Header />
+        <div className={styles.sections}>
+          <Aside />
+          <Sidebar />
+        </div>
+      </Container>
+    </div>
   );
 };

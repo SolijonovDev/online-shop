@@ -2,7 +2,31 @@ $base-font: ('Avenir Next Cyr', sans-serif);
 
 // Container params
 $container-width: 1400px;
-$color-1: #16151a;
-$color-2: #000;
-$color-3: #2d2c32;
-$color-4: #111014;
+
+// Colors
+$color-1: #fff;
+
+//header texts color
+$color-5: #282830;
+
+//active
+$color-6: #008dff;
+
+//text
+$color-3: #141821;
+$color-4: #181616;
+
+// buttons
+
+$btn-color-1: #008dff;
+$btn-color-2: #00cd98;
+
+//card bg;
+$bg-color-1: #fff;
+
+//sidebar
+$bg-color-4: #f4f7fd;
+
+//sidebar card items gap
+$gap: 15px;
+$card-box-shadow: rgb(209 213 223 / 50%) 0 10px 30px 0;

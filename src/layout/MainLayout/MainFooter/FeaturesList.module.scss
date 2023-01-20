@@ -1,0 +1,19 @@
+@import '@/styles/variables';
+
+.featuresList {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  border-radius: 20px;
+  padding: 25px 50px;
+  background-color: $color-1;
+
+  .featureItem {
+    display: flex;
+    align-items: center;
+  }
+
+  .featureText {
+    margin-left: 24px;
+  }
+}

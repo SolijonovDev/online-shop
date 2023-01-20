@@ -1,9 +1,8 @@
-import { useState } from 'react';
+import cn from 'classnames';
 
 import styles from '@/components/Typography/Typography.module.scss';
 
 export const Typography = props => {
-  const { children } = props;
-  const [] = useState();
-  return <p>{Children}</p>;
+  const { children, className } = props;
+  return <p className={cn({ [styles.text]: true, [className]: className })}>{children}</p>;
 };
