@@ -1,0 +1,37 @@
+@import '@/styles/variables';
+
+.button {
+  outline: none;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 12px;
+  cursor: pointer;
+
+  &.contained.primary {
+    border: 1px solid $btn-color-1;
+    background-color: $btn-color-1;
+  }
+
+  &.contained.secondary {
+    border: 1px solid $btn-color-2;
+    background-color: $btn-color-2;
+  }
+
+  &.outlined.primary {
+    border: 1px solid $btn-color-1;
+    color: $btn-color-1;
+  }
+
+  &.outlined.secondary {
+    border: 1px solid $btn-color-2;
+    color: $btn-color-2;
+  }
+
+  &.text.primary {
+    color: $btn-color-1;
+  }
+
+  &.text.secondary {
+    color: $btn-color-2;
+  }
+}
