@@ -1,5 +1,5 @@
-import { Card } from '@/components/Card';
 import { Heading } from '@/components/Heading';
+import { ProductCard } from '@/components/ProductCard';
 
 import styles from '@/views/HomeView/Sidebar/ProductModule/ProductModule.module.scss';
 
@@ -14,9 +14,7 @@ export const ProductModule = props => {
       <Heading className={styles.title}>{title}</Heading>
       <div className={styles.products}>
         {arr.map(item => (
-          <Card key={item}>
-            <p>{item}</p>
-          </Card>
+          <ProductCard key={item} />
         ))}
       </div>
     </div>

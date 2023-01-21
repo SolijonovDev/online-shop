@@ -1,6 +1,6 @@
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 
-import { httpClient } from '@/api';
+import { $api } from '@/api';
 import { languageInterceptor } from '@/api/interceptors/language-interceptor';
 
 export const defaultGetStaticPaths = async () => {
@@ -30,7 +30,7 @@ const defaultNames = ['common', 'auth'];
 
 export const propsWithLocales = (localeNamespaces = null, dataFetcher) => {
   return async context => {
-    languageInterceptor(httpClient, context.locale);
+    languageInterceptor($api, context.locale);
 
     let result = null;
     if (dataFetcher) {

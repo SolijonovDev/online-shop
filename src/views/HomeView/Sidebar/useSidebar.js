@@ -1,18 +1,11 @@
-const modules = [
-  {
-    id: 1,
-    title: 'Новые скидки',
-  },
-  {
-    id: 2,
-    title: 'Наша подборка для вас',
-  },
-  {
-    id: 3,
-    title: 'Популярные товары',
-  },
-];
+import { useQuery } from 'react-query';
+
+import { HomeApi } from '@/api/domains/home-api';
 
 export const useSidebar = () => {
+  const { data: modules } = useQuery(['home-selections'], HomeApi.fetchSelections, {
+    staleTime: Infinity,
+  });
+
   return { modules };
 };
