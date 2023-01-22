@@ -9,7 +9,6 @@ export const CardImage = props => {
       }}
       className={styles.cardImage}
     >
-      <h2>card image</h2>
       <div className={styles.photo}>
         <img src={src} alt={alt} />
       </div>

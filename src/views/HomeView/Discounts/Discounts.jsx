@@ -1,7 +1,6 @@
 import styles from '@/views/HomeView/Discounts/Discounts.module.scss';
 
-const url =
-  'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUIgnBXBkXtvavBaUZYrWwS0m4-62karYieA&usqp=CAU';
+const url = 'https://assets.asaxiy.uz/uploads/toptoday/mobile/63cba364f2606.jpg';
 
 export const Discounts = () => {
   return (

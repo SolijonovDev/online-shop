@@ -5,7 +5,6 @@ import styles from '@/views/HomeView/Sidebar/Sidebar.module.scss';
 
 export const Sidebar = () => {
   const { modules } = useSidebar();
-
   return (
     <div className={styles.sidebar}>
       {modules.map(module => (

@@ -1,0 +1,14 @@
+.productCard {
+  display: flex;
+  flex-direction: column;
+
+  .body {
+    flex-grow: 1;
+  }
+
+  .btns {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
