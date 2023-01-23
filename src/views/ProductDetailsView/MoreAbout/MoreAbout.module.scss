@@ -1,20 +1,18 @@
+.moreAbout {
+  display: flex;
+  justify-content: space-between;
 
-
-.moreAbout{
-   display: flex;
-   justify-content: space-between;
-
-   .image{
+  .image {
     flex: 2;
-   }
+  }
 
-   .photo{
+  .photo {
     width: 100%;
     height: auto;
     object-fit: cover;
-   }
-   .info{
+  }
+  .info {
     flex: 3;
     padding: 0 30px;
-   }
+  }
 }

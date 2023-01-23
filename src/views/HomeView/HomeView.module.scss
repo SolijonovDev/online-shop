@@ -1,11 +1,11 @@
-@import "@/styles/variables";
+@import '@/styles/variables';
 
 .homeView {
   padding: 25px 0;
 
   .sections {
     display: grid;
-    grid-template-areas: "a a" "s s";
+    grid-template-areas: 'a a' 's s';
     grid-template-columns: 3fr 9fr;
   }
 
@@ -13,7 +13,7 @@
     .sections {
       display: grid;
       grid-column-gap: 25px;
-      grid-template-areas: "a s";
+      grid-template-areas: 'a s';
       grid-template-columns: 2fr 7fr;
     }
   }
