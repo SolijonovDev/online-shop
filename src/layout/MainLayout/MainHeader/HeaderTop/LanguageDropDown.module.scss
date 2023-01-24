@@ -1,0 +1,25 @@
+@import '@/styles/variables';
+
+.langDropDown {
+  position: relative;
+  margin-right: 20px;
+
+  .dropDown {
+    position: absolute;
+    right: 0;
+    top: 100%;
+    border-radius: 10px;
+    padding: 16px 0;
+    min-width: 120px;
+    box-shadow: 0 10px 30px rgb(209 213 223 / 50%);
+    background-color: $color-1;
+  }
+
+  .dropDown li {
+    text-align: center;
+  }
+
+  .dropDownBtn {
+    text-align: center;
+  }
+}

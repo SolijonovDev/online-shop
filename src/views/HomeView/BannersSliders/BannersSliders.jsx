@@ -10,6 +10,10 @@ import styles from '@/views/HomeView/BannersSliders/BannersSliders.module.scss';
 export const BannersSliders = () => {
   const { banners } = useBannersSlider();
 
+  if (!banners || !banners.length) {
+    return null;
+  }
+
   return (
     <div className={styles.bannerSliderContainer}>
       <div className={styles.bannersSlider}>
