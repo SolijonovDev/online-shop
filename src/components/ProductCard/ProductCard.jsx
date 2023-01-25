@@ -1,22 +1,18 @@
-import { useRouter } from 'next/router';
+import { useProductCard } from './useProductCard';
 
 import { Button } from '@/components/Button';
 import { Card, CardImage, CardTitle } from '@/components/Card';
 import styles from '@/components/ProductCard/ProductCard.module.scss';
 
 export const ProductCard = props => {
-  const { product } = props;
+  const { product = {} } = props;
   const { image, title, rating, price, id } = product;
 
-  const router = useRouter();
-
-  const handleClick = () => {
-    router.push(`/product-details/${id}`);
-  };
-
-  const handleClickRass = e => {
-    e.stopPropagation();
-  };
+  const { handleClick, handleClickMonthlyPayment, handleClickPurchase } = useProductCard({
+    id,
+    title,
+    price,
+  });
 
   return (
     <Card className={styles.productCard} onClick={handleClick}>
@@ -27,10 +23,10 @@ export const ProductCard = props => {
         <CardTitle>{rating}</CardTitle>
       </div>
       <div className={styles.btns}>
-        <Button color="secondary" onClick={handleClickRass}>
+        <Button color="secondary" onClick={handleClickMonthlyPayment}>
           Rassrochka
         </Button>
-        <Button onClick={handleClickRass}>Kupit v 1 klik</Button>
+        <Button onClick={handleClickPurchase}>Kupit v 1 klik</Button>
       </div>
     </Card>
   );
