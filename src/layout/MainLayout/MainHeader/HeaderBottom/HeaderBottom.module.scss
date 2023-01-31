@@ -4,9 +4,18 @@
   justify-content: space-between;
   padding: 17px 0;
 
+  .openMenu{
+     margin-right: 40px;
+     flex-grow: 1;
+  }
+
   & > a {
     font-weight: 400;
     font-size: 15px;
     letter-spacing: normal;
+  }
+
+  .link{
+    margin-left: 75px;
   }
 }
