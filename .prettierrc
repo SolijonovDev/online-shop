@@ -20,8 +20,8 @@
     "^(@/components)(.*)$",
     "^(@/views)(.*)$",
     "^(@/public)(.*)$",
-    "(svg|jpg|jpeg|png)$",
-    "^(.*).scss"
+    "(.scss)$",
+    "(svg|jpg|jpeg|png)$"
   ],
   "importOrderSeparation": true
 }

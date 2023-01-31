@@ -5,11 +5,13 @@ import { ReactQueryDevtools } from 'react-query/devtools';
 import { Hydrate } from 'react-query/hydration';
 
 import { MainLayout } from '@/layout/MainLayout';
+// import { AuthLayout } from '@/layout/AuthLayout';
 
 import '@/styles/main.scss';
 
 const App = ({ Component, pageProps }) => {
   const queryClient = useRef();
+ 
   if (!queryClient.current) {
     queryClient.current = new QueryClient();
   }
