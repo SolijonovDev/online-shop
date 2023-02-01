@@ -1,0 +1,30 @@
+.mobileNav {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 10000;
+  width: 100%;
+  background-color: #fff;
+  backdrop-filter: blur(10px);
+
+  .contain {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 60px;
+  }
+
+  .navItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    text-align: center;
+
+    span {
+      margin-top: 5px;
+    }
+  }
+}
