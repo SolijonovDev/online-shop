@@ -1,7 +1,11 @@
 {
-  "menu":{
-    "book":"Books",
-    "news":"News",
-    "discount":"Discounts"
+  "menu": {
+    "book": "Books",
+    "news": "News",
+    "discount": "Discounts"
+  },
+  "search": {
+    "placeholder": "Search...",
+    "btn": "Search"
   }
 }

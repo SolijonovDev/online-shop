@@ -1,7 +1,11 @@
 {
-  "menu":{
-    "book":"Книги",
-    "news":"Новости",
-    "discount":"Скидки"
+  "menu": {
+    "book": "Книги",
+    "news": "Новости",
+    "discount": "Скидки"
+  },
+  "search": {
+    "placeholder": "Поиск...",
+    "btn": "Поиск"
   }
 }

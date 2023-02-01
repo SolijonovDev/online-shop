@@ -1,11 +1,11 @@
+import 'swiper/css';
+
 import { useBannersSlider } from '@/views/HomeView/BannersSliders/useBannersSlider';
 
 import { Swiper, SwiperSlide } from '@/components/Slider/Swiper';
 
 import { BannerItem } from '@/views/HomeView/BannersSliders/BannerItem';
 import styles from '@/views/HomeView/BannersSliders/BannersSliders.module.scss';
-
-import 'swiper/css';
 
 export const BannersSliders = () => {
   const { banners } = useBannersSlider();

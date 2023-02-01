@@ -1,0 +1,48 @@
+@import "@/styles/variables";
+
+.searchBar {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 2px solid $color-6;
+  border-radius: 10px;
+  width: 100%;
+
+  input,
+  button {
+    outline: none;
+    border: none;
+  }
+
+  input {
+    flex-grow: 1;
+    color: $color-6;
+    background-color: transparent;
+
+    @media (min-width: 991px) {
+      padding: 5px 10px;
+    }
+  }
+
+  button {
+    border-radius: 0;
+    padding: 0 10px;
+    height: 50px;
+    font-size: 14px;
+    background-color: $color-6;
+    cursor: pointer;
+    user-select: none;
+
+    @media (min-width: 991px) {
+      height: 40px;
+      font-size: 16px;
+    }
+  }
+
+  @media (min-width: 991px) {
+    flex-grow: 1;
+    margin: 0 20px;
+  }
+}

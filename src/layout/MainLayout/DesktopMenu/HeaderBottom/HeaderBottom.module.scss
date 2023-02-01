@@ -4,9 +4,9 @@
   justify-content: space-between;
   padding: 17px 0;
 
-  .openMenu{
-     margin-right: 40px;
-     flex-grow: 1;
+  .openMenu {
+    flex-grow: 1;
+    margin-right: 40px;
   }
 
   & > a {
@@ -15,7 +15,7 @@
     letter-spacing: normal;
   }
 
-  .link{
+  .link {
     margin-left: 75px;
   }
 }

@@ -1,7 +1,11 @@
 {
-  "menu":{
-    "book":"Kitoblar",
-    "news":"Yangiliklar",
-    "discount":"Chegirmalar"
+  "menu": {
+    "book": "Kitoblar",
+    "news": "Yangiliklar",
+    "discount": "Chegirmalar"
+  },
+  "search": {
+    "placeholder": "Qidirish...",
+    "btn": "Qidirish"
   }
 }

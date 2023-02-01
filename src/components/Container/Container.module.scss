@@ -1,7 +1,8 @@
-@import '@/styles/variables';
+@import "@/styles/variables";
 
 .container {
   margin: 0 auto;
   padding: 0 20px;
+  width: 100%;
   max-width: calc($container-width + 40px);
 }

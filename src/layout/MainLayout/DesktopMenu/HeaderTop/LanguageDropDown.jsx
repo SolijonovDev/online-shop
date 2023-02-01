@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 
 import { Button } from '@/components/Button';
 
-import styles from '@/layout/MainLayout/MainHeader/HeaderTop/LanguageDropDown.module.scss';
+import styles from '@/layout/MainLayout/DesktopMenu/HeaderTop/LanguageDropDown.module.scss';
 
 const titles = {
   uz: 'Uzbek',

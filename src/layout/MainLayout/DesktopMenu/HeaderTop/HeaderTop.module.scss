@@ -1,0 +1,9 @@
+.headerTop {
+  display: flex;
+  align-items: center;
+  padding: 17px 0;
+
+  .searchBar {
+    flex-grow: 1;
+  }
+}

@@ -17,6 +17,46 @@ export const HomeView = () => {
         <div className={styles.sections}>
           <Aside />
           <Sidebar />
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi dolorem aliquam
+            aliquid vero, voluptatem distinctio veniam. Fugiat vitae culpa itaque, sit quos impedit
+            corrupti cum in atque porro veniam, ea optio nulla debitis, amet ab! Dolores
+            perspiciatis voluptates molestiae soluta doloribus reprehenderit nostrum corporis nam
+            laboriosam nulla est libero, animi dolorum architecto cupiditate in iste tempore quos
+            dolorem. Placeat non dolorem, eum pariatur nisi deleniti excepturi incidunt dolore unde
+            autem possimus iure perferendis ab impedit architecto maiores quos voluptatum
+            laudantium?
+          </p>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi dolorem aliquam
+            aliquid vero, voluptatem distinctio veniam. Fugiat vitae culpa itaque, sit quos impedit
+            corrupti cum in atque porro veniam, ea optio nulla debitis, amet ab! Dolores
+            perspiciatis voluptates molestiae soluta doloribus reprehenderit nostrum corporis nam
+            laboriosam nulla est libero, animi dolorum architecto cupiditate in iste tempore quos
+            dolorem. Placeat non dolorem, eum pariatur nisi deleniti excepturi incidunt dolore unde
+            autem possimus iure perferendis ab impedit architecto maiores quos voluptatum
+            laudantium?
+          </p>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi dolorem aliquam
+            aliquid vero, voluptatem distinctio veniam. Fugiat vitae culpa itaque, sit quos impedit
+            corrupti cum in atque porro veniam, ea optio nulla debitis, amet ab! Dolores
+            perspiciatis voluptates molestiae soluta doloribus reprehenderit nostrum corporis nam
+            laboriosam nulla est libero, animi dolorum architecto cupiditate in iste tempore quos
+            dolorem. Placeat non dolorem, eum pariatur nisi deleniti excepturi incidunt dolore unde
+            autem possimus iure perferendis ab impedit architecto maiores quos voluptatum
+            laudantium?
+          </p>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi dolorem aliquam
+            aliquid vero, voluptatem distinctio veniam. Fugiat vitae culpa itaque, sit quos impedit
+            corrupti cum in atque porro veniam, ea optio nulla debitis, amet ab! Dolores
+            perspiciatis voluptates molestiae soluta doloribus reprehenderit nostrum corporis nam
+            laboriosam nulla est libero, animi dolorum architecto cupiditate in iste tempore quos
+            dolorem. Placeat non dolorem, eum pariatur nisi deleniti excepturi incidunt dolore unde
+            autem possimus iure perferendis ab impedit architecto maiores quos voluptatum
+            laudantium?
+          </p>
         </div>
       </Container>
     </div>

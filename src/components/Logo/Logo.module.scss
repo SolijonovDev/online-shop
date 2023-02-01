@@ -1,9 +1,18 @@
 .logo {
-  width: 134px;
+  display: inline-flex;
+  align-items: center;
   height: auto;
 
   img {
     width: 100%;
     height: auto;
+  }
+
+  &.medium {
+    width: 134px;
+  }
+
+  &.small {
+    width: 100px;
   }
 }

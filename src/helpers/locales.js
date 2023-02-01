@@ -26,7 +26,7 @@ export const pathsWithLocales = (getStaticPaths = defaultGetStaticPaths) => {
   };
 };
 
-const defaultNames = ['common', 'auth','header'];
+const defaultNames = ['common', 'auth', 'header'];
 
 export const propsWithLocales = (localeNamespaces = null, dataFetcher) => {
   return async context => {
