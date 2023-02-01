@@ -1,0 +1,39 @@
+.hamburgerInner {
+  width: 20px;
+}
+
+.hamburgerItem {
+  position: relative;
+  display: block;
+  border-radius: 10px;
+  width: 100%;
+  height: 3px;
+  background-color: #008dff;
+  transition: 0.3s;
+  transition: 0.3s;
+
+  &:not(:last-child) {
+    margin-bottom: 3px;
+  }
+
+  .shadow {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgb(0 0 0 / 50%);
+  }
+
+  .btn {
+    position: absolute;
+    left: 50px;
+    top: 50px;
+    padding: 10px 20px;
+    background-color: red;
+  }
+
+  @media (min-width: 991px) {
+    height: 2px;
+  }
+}
